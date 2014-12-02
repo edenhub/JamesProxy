@@ -15,4 +15,5 @@ public class TestReceiveMail {
     public void testReceiveMail() throws MessagingException, IOException {
         ReceiveMail.receiveMail();
     }
+
 }

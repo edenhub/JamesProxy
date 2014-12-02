@@ -1,9 +1,11 @@
 package TestMail.BaseMail;
 
-import Mail.BaseMail.SendMail;
 import org.junit.Test;
 
 import javax.mail.MessagingException;
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.util.Scanner;
 
 /**
  * Created by adam on 14-12-1.
@@ -11,7 +13,9 @@ import javax.mail.MessagingException;
 public class TestSendMail {
 
     @Test
-    public void testSendMail() throws MessagingException {
-        SendMail.doSend();
+    public void testSendMail() throws MessagingException, FileNotFoundException {
+//        SendMail.doSend();
+
+
     }
 }
